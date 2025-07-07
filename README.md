@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--gabriel-test-20250707--aemdemos.aem.page/
+- Live: https://main--gabriel-test-20250707--aemdemos.aem.live/
 
 ## Documentation
 
