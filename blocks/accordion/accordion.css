@@ -1,10 +1,26 @@
-.accordion details {
-  border: 1px solid #dadada;
+.accordion {
+  background: #F6F6F2;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
+.accordion details {
+  background: #F6F6F2;
+  border: none;
+  border-bottom: 1px solid #E0E0DE;
+  margin: 0;
+  box-shadow: none;
+}
+
 .accordion details + details {
-  margin-top: 24px;
+  margin-top: 0;
+}
+
+.accordion details:last-child {
+  border-bottom: none;
 }
 
 .accordion details p {
@@ -18,7 +34,22 @@
   cursor: pointer;
   list-style: none;
   overflow: auto;
-  transition: background-color 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 44px;
+  background: #F6F6F2;
+  color: #222;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 0;
+  outline: none;
+  box-sizing: border-box;
+  transition: background 0.2s;
+  line-height: normal;
+  gap: 12px;
 }
 
 .accordion details[open] summary {
@@ -30,7 +61,8 @@
   background-color: var(--light-color);
 }
 
-.accordion details summary::-webkit-details-marker {
+.accordion details summary::-webkit-details-marker,
+.accordion details summary::marker {
   display: none;
 }
 
@@ -51,8 +83,28 @@
   transform: translateY(-50%) rotate(-45deg);
 }
 
+.accordion details summary p,
+.accordion .accordion-item-label p {
+  margin: 0;
+  color: #222;
+  font-size: 13px;
+  font-weight: 600;
+  flex: 1 1 auto;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  min-height: inherit;
+}
+
+.accordion .accordion-item-body,
 .accordion details .accordion-item-body {
-  padding: 0 16px;
+  padding: 0 24px 16px;
+  color: #222;
+  font-size: 13px;
+  background: #F6F6F2;
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .accordion details[open] .accordion-item-body {
