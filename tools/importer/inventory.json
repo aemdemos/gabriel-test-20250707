@@ -1,0 +1,18 @@
+{
+  "blocks": [
+    {
+      "name": "Hero",
+      "target": "Hero (hero1)",
+      "key": "hero1",
+      "instances": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": ".hero-section",
+          "original": true
+        }
+      ]
+    }
+  ],
+  "originUrl": "https://www.wknd-trendsetters.site/"
+}
+EOF < /dev/null
