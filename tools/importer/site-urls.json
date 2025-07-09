@@ -1,9 +1,9 @@
 {
-  "originUrl": "https://wknd-trendsetters.webflow.io",
-  "lastCrawled": "https://wknd-trendsetters.webflow.io/",
+  "originUrl": "https://www.wknd-trendsetters.site",
+  "lastCrawled": "https://www.wknd-trendsetters.site/",
   "urls": [
     {
-      "url": "https://wknd-trendsetters.webflow.io/",
+      "url": "https://www.wknd-trendsetters.site/",
       "source": "MANUAL",
       "targetPath": "/",
       "id": "1b9ba84f36ee3a519917302a79dfd970725bae31"
